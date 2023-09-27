@@ -6,8 +6,6 @@ body{
  gap: 1rem;
 
 }
-
-
 #drag-container {
  width: 200px;
  height: 200px;
@@ -16,8 +14,7 @@ body{
  text-align: center;
  margin-bottom: 20px;
 }
-
-#draggable {
+.draggable {
  width: 100px;
  height: 40px;
  background-color: #3498db;
@@ -26,7 +23,6 @@ body{
  padding: 10px;
  cursor: grab;
 }
-
 #drop-container {
  width: 200px;
  height: 100px;
