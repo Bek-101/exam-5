@@ -1,51 +1,38 @@
-body{
- display: flex;
- justify-content: center;
- place-items: center;
- background-color: #e74c3c;
- gap: 1rem;
-
+* {
+ box-sizing: border-box;
 }
-#drag-container {
- width: 200px;
- height: 200px;
- background-color: #f0f0f0;
- padding: 10px;
- text-align: center;
- margin-bottom: 20px;
+body {
+ margin: 0;
+ padding: 0;
+ background-color:#ff0000 ;
 }
-#draggable {
- width: 100px;
- height: 40px;
- background-color: #3498db;
- color: #fff;
- text-align: center;
- padding: 10px;
- cursor: grab;
+.container {
+ font-family: "Poppins", sans-serif;
+ background-color: #ffffff;
+ padding: 3em 2em;
+ width: 90%;
+ max-width: 37em;
+ position: absolute;
+ transform: translate(-50%, -50%);
+ top: 50%;
+ left: 50%;
+ border-radius: 0.8em;
 }
-#draggable-one{
- width: 100px;
- height: 40px;
- background-color: #3498db;
- color: #fff;
- padding: 10px;
- padding-top: 10px;
- cursor: grab;
- border: 1px solid #fff;
- border-radius: 70%;
+#list {
+ position: relative;
+ padding-inline-start: 0;
+ list-style-type: none;
 }
-#drop-container {
- width: 200px;
- height: 100px;
- background-color: #f0f0f0;
- padding: 10px;
+.list-item {
+ padding: 0.8em 0;
+ border-radius: 0.2em;
+ margin: 1em auto;
+ border: 1px solid #000000;
  text-align: center;
 }
-#droppable {
- width: 100px;
- height: 40px;
- background-color: #e74c3c;
- color: #fff;
- text-align: center;
- padding: 10px;
+.list-item:hover {
+ cursor: move;
+ background-color: #d1c9ff;
+ border-color: #8673f2;
+ color: #8673f2;
 }
